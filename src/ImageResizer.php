@@ -6,6 +6,6 @@ class ImageResizer
 {
     public function greet($greet = 'labas')
     {
-        return $greet.' - '.$greet;
+        return $greet.' - '.$greet.' Cia yea auto updeitas';
     }
 }
