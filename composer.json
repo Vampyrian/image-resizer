@@ -1,0 +1,14 @@
+{
+    "name": "vampyrian/image-resizer",
+    "description": "A test project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zilvinas Macius",
+            "email": "zilvinas.macius@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
