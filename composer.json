@@ -10,5 +10,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Vampyrian\\ImageResizer\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0"
+    }
 }
