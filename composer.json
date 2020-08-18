@@ -15,8 +15,21 @@
             "Vampyrian\\ImageResizer\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Vampyrian\\ImageResizer\\Test\\": "test/"
+        }
+    },
     "require": {
         "php": "^7.0",
         "ext-imagick": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit ./test/ImageResizerTest",
+        "test2": "phpunit test"
+
     }
 }
