@@ -13,10 +13,10 @@ kelią kuriame norime išsaugoti nuotrauką ir viskas.
 
 ## Naudojimas
 
-Pagrindinis bibliotekos pritaikymas blade arba twig failuose. Pirma sykį paleidus biblioteką bus patikrinta
-, gal jau yra sugeneruota norimų išmatavimų nuotrauką. Jeigu taip, tai bus gražintas kelias iki nuotraukos ir
-kokie papildomi skaičiavimai ar manipuliavimai su nuotrauka atlikti nebus. Standartiškai nuotrauka saugoma
-storage/thumbnail/ kataloge.
+Pagrindinis bibliotekos pritaikymas blade arba twig failuose. Pirma sykį paleidus biblioteką bus patikrinta, 
+gal jau yra sugeneruota norimų išmatavimų nuotrauką. Jeigu taip, tai bus gražintas kelias iki nuotraukos ir
+jokie papildomi skaičiavimai ar manipuliavimai su nuotrauka atlikti nebus. Standartiškai nuotrauka saugoma
+"storage/thumbnail/" kataloge.
 
 
 ## Instaliacija
