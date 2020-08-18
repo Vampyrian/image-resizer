@@ -53,6 +53,12 @@ class ImageResizer
 
     public function setWidthAndHeight(int $width, int $height)
     {
+        if ($width < 1) {
+            throw new Exception("Image width can't be smaller than 1 px");
+        }
+        if ($height < 1) {
+            throw new Exception("Image height can't be smaller than 1 px");
+        }
         $this->width = $width;
         $this->height = $height;
         return $this;
